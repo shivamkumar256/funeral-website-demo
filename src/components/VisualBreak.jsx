@@ -6,6 +6,7 @@ function VisualBreak() {
         src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80"
         alt="A peaceful outdoor landscape with warm natural light"
         className="h-[420px] w-full object-cover md:h-[520px]"
+        loading="lazy"
       />
 
       <div className="absolute inset-0 mx-auto flex max-w-7xl items-end p-6 sm:p-8 lg:p-12">

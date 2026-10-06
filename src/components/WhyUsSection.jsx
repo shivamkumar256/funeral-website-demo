@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import trustUsImage from '../assets/backgrounds/trust us.png'
+import trustUsImage from '../assets/backgrounds/trust us.webp'
 import { trustChecklist } from '../data/siteContent'
 
 function WhyUsSection() {

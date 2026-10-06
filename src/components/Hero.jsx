@@ -1,16 +1,28 @@
 import { CheckCircle2, PhoneCall } from 'lucide-react'
-import heroBackground from '../assets/backgrounds/hero section.png'
+import heroBackground from '../assets/backgrounds/hero section.webp'
 import { floatingPhone, heroTrustItems } from '../data/siteContent'
 
 function Hero() {
   return (
     <section id="home" className="relative isolate overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `linear-gradient(90deg, rgba(18, 9, 6, 0.62), rgba(18, 9, 6, 0.35)), url(${heroBackground})`,
-        }}
-      />
+      <div className="absolute inset-0">
+        <img
+          src={heroBackground}
+          alt=""
+          aria-hidden="true"
+          width="1672"
+          height="941"
+          fetchPriority="high"
+          decoding="async"
+          className="h-full w-full object-cover object-center"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: 'linear-gradient(90deg, rgba(18, 9, 6, 0.62), rgba(18, 9, 6, 0.35))',
+          }}
+        />
+      </div>
 
       <div className="relative mx-auto flex min-h-[720px] max-w-7xl items-center px-4 py-24 sm:px-6 lg:px-8">
         <div className="max-w-2xl text-white">

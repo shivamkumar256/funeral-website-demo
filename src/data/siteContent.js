@@ -8,14 +8,14 @@ import {
   Sparkles,
   Users,
 } from 'lucide-react'
-import freezerBoxImage from '../assets/services/freezer box.png'
-import hearseVanImage from '../assets/services/hearse van.png'
-import prayerHallImage from '../assets/services/prayer hall.png'
-import prayerHallDecorationImage from '../assets/services/prayer hall decoration.png'
-import transportImage from '../assets/services/transport.png'
-import shamshanGhatImage1 from '../assets/samshan ghat/samshan ghat.png'
-import shamshanGhatImage2 from '../assets/samshan ghat/samshan ghat 2.png'
-import shamshanGhatImage3 from '../assets/samshan ghat/samshan ghat 3.png'
+import freezerBoxImage from '../assets/services/freezer box.webp'
+import hearseVanImage from '../assets/services/hearse van.webp'
+import prayerHallImage from '../assets/services/prayer hall.webp'
+import prayerHallDecorationImage from '../assets/services/prayer hall decoration.webp'
+import transportImage from '../assets/services/transport.webp'
+import shamshanGhatImage1 from '../assets/samshan ghat/samshan ghat.webp'
+import shamshanGhatImage2 from '../assets/samshan ghat/samshan ghat 2.webp'
+import shamshanGhatImage3 from '../assets/samshan ghat/samshan ghat 3.webp'
 
 export const navItems = [
   { label: 'Home', href: '#home' },

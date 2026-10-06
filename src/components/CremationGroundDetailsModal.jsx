@@ -71,7 +71,7 @@ function CremationGroundDetailsModal({ ground, onClose }) {
           <X size={20} />
         </button>
 
-        <img src={ground.image} alt={ground.name} className="h-56 w-full object-cover sm:h-72" />
+        <img src={ground.image} alt={ground.name} className="h-56 w-full object-cover sm:h-72" loading="lazy" />
 
         <div className="p-6 sm:p-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#a94720]">Delhi NCR cremation ground</p>
